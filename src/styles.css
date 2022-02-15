@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nav {
+    height: 80px;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

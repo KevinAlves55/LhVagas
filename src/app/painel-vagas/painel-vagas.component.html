@@ -1,0 +1,34 @@
+<section>
+
+    <form action="">
+
+        <div class="caixa">
+            <label for="">Id: </label>
+            <input type="number" name="id" placeholder="Insira o id da Vaga" [(ngModel)] = "vaga.id">
+    
+            <label for="">Nome: </label>
+            <input type="text" name="nome" placeholder="Insira o nome da Vaga" [(ngModel)] = "vaga.nome">
+        </div>
+    
+        <div class="caixa">
+            <label for="">Foto: </label>
+            <input type="text" name="foto" placeholder="Insira a foto da Vaga" [(ngModel)] = "vaga.foto">
+    
+            <label>Descrição: </label>
+            <input type="text" name="descricao" placeholder="Insira o descrição da Vaga" [(ngModel)] = "vaga.descricao">
+        </div>
+    
+        <div class="caixa">
+            <label for="">Salário: </label>
+            <input type="number" name="salario" placeholder="Insira o salário da Vaga" [(ngModel)] = "vaga.salario">
+        </div>
+    
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button (click)="cadastrar()" type="button" class="btn btn-success" style="margin: 20px; border-radius: 6px;">Cadastrar</button>
+            <button (click)="excluir(vaga.id)"  type="button" class="btn btn-danger" style="margin: 20px; border-radius: 6px;">Excluir</button>
+            <button (click)="atualizar(vaga.id)" type="button" class="btn btn-warning" style="margin: 20px; border-radius: 6px;">Atualizar</button>
+        </div>
+    
+    </form>
+
+</section>

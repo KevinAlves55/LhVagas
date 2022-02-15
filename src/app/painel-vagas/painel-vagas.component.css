@@ -1,0 +1,27 @@
+section {
+    height: 100%;
+}
+
+form {
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form .caixa {
+    display: flex;
+    height: 50px;
+    width: 700px;
+    gap: 10px;
+}
+
+.caixa label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "nome": "Desenvolvedor Front End",
+      "foto": "img1.jpg",
+      "descricao": "Trabalhar com Angular",
+      "salario": 7000
+    },
+    {
+      "id": 2,
+      "nome": "DBA",
+      "foto": "img2.jpg",
+      "descricao": "Trabalhar com MySQL",
+      "salario": 10000
+    },
+    {
+      "id": 3,
+      "nome": "Desenvolvedor Back-End",
+      "foto": "img3.jpg",
+      "descricao": "Trabalhar com Spring Boot",
+      "salario": 13000
+    },
+    {
+      "id": 4,
+      "nome": "Desenvolvedor Front End",
+      "foto": "img1.jpg",
+      "descricao": "Trabalhar com Angular",
+      "salario": 7000
+    },
+    {
+      "id": 5,
+      "nome": "DBA",
+      "foto": "img2.jpg",
+      "descricao": "Trabalhar com MySQL",
+      "salario": 10000
+    }
+  ]
+}
